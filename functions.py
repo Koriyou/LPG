@@ -176,5 +176,3 @@ def NomadPath():
     text=appendWithNewLine(text,f"Your pack's overall philosophy is {random.choice(LPD.PlayerPackPhilosophy)}")
     text=appendWithNewLine(text,f"Someone is gunning for you  {random.choice(LPD.PlayerPackPhilosophy)}")
     return text
-
-
