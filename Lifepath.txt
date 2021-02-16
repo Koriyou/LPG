@@ -1,27 +1,38 @@
-your cultural origin is East Asian
+your cultural origin is Sub saharan African
     you are Stable and serious
-    your favorite dress code is Generic Chic (Standard, Colorful, Modular)
-    your favorite hairstyle  is Striped
-    People always notice your Spiked gloves
+    your favorite dress code is Nomad Leathers (Western, Rugged, Tribal)
+    your favorite hairstyle  is Wild and all over
+    People always notice your Strange contacts
     you value Love above all else
-    when it comes to people this is what you think : People are untrustworthy. Don't depend on anyone.
-    the person you value most is: No one and your most valued possession is A toy
+    when it comes to people this is what you think : People are wonderful!
+    the person you value most is: A brother or sister and your most valued possession is A photograph
     Family background
     Corporate Managers : Well to do, with large homes, safe neighborhoods, nice cars, etc. Sometimes your parent(s) would hire servants, although this was rare. You had a mix of private and corporate education. 
     Environnement
-    Spent in a safe Corp Zone walled off from the rest of the City.
+    In the ruins of a deserted town or city taken over by Reclaimers.
     Your family was scattered to the winds due to,misfortune.
-    Friends :none
-    Enemies :This enemy is Person working for you he hates you for this reason Caused a major public humiliation.
+    Friends :An old enemy.
+A former lover.
+Someone you know from The Street.
+    Enemies :This enemy is Boosterganger he hates you for this reason One of you was a romantic rival.,One of you was a business rival.
+            they have the following means at their disposal Just themselves.
+            Their revenge plan is Go into a murderous rage and try to physically rip their face off.
+This enemy is Person working for you he hates you for this reason Deserted or betrayed the other.
             they have the following means at their disposal Just themselves and even they won't go out of their way.
-            Their revenge plan is Avoid the scum.
+            Their revenge plan is Go into a murderous rage and try to physically rip their face off.
+This enemy is Partner or coworker,Corporate exec he hates you for this reason One of you set the other up for a crime,they didn't commit.
+            they have the following means at their disposal The local cops or other Lawmen.
+            Their revenge plan is Set out to murder or maim them.
     former lovers :none
-    your lifegoal is : Gain fame and recognition.
+    your lifegoal is : Get off The Street no matter what it takes.
     ---------------------- ROLE  ------------------------------
-    You Are a Solo
-you are a Corporate or Freelance Black Ops Agent
-your moral compass is Always working for good, trying to take out the "bad guys."
-you operate in The whole City
-Someone is gunning for you mistakenly think you're guilty of something.
+    You Are a Netrunner
+Freelancer who will hack for hire.
+Do you have a partner or do you work alone ?
+you are solo
+workspace It looks better in Virtuality, you swear.
+some of your clients are Local Solos or other combat types who use you to keep their personal systems, secure.
+you get your programs this way :  Have a local Fixer supply programs in exchange for hack work.
+Someone is gunning for you  Lawmen who consider you an illegal "black hat" and want to bust you.
 
     

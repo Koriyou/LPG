@@ -4,34 +4,34 @@ import LPD
 def roll():
     """Uses the cyberpunk red formula 1d10-7 to define friends enemies and lovers
     """
-    return random.randint(1,10)
+    return (random.randint(1,10)-7)
 
 def flist():
     """Uses the formula in roll()  loop yield friends
     """
     rr = roll()
-    if rr <= 7:
+    if rr <= 0:
         yield  "none"
-    elif rr >=8:
-        for i in range(0,rr-7):
+    elif rr >=3:
+        for i in range(0,rr):
             yield random.choice(LPD.Friends)
 
 def enemies():
     rr = roll()
-    if rr <= 7:
+    if rr <= 0:
         yield  "none"
-    elif rr >=8:
-        for i in range(0,rr-7):
+    elif rr >=3:
+        for i in range(0,rr):
             yield(f"""This enemy is {random.choice(LPD.Enemies)} he hates you for this reason {random.choice(LPD.cause)}
             they have the following means at their disposal {random.choice(LPD.throw)}
             Their revenge plan is {random.choice(LPD.ven)}""")
 
 def lovers():
     rr = roll()
-    if rr <= 7:
+    if rr <= 0:
         yield  "none"
-    elif rr >=8:
-        for i in range(0,rr-7):
+    elif rr >=3:
+        for i in range(0,rr):
             yield random.choice(LPD.lovers)
 
 
