@@ -12,27 +12,25 @@ def flist():
     rr = roll()
     if rr <= 0:
         yield  "none"
-    elif rr >=3:
-        for i in range(0,rr):
-            yield random.choice(LPD.Friends)
+
+    for i in range(0,rr):
+        yield random.choice(LPD.Friends)
 
 def enemies():
     rr = roll()
     if rr <= 0:
         yield  "none"
-    elif rr >=3:
-        for i in range(0,rr):
-            yield(f"""This enemy is {random.choice(LPD.Enemies)} he hates you for this reason {random.choice(LPD.cause)}
-            they have the following means at their disposal {random.choice(LPD.throw)}
-            Their revenge plan is {random.choice(LPD.ven)}""")
+    for i in range(0,rr):
+        yield(f"""This enemy is {random.choice(LPD.Enemies)} he hates you for this reason {random.choice(LPD.cause)}
+        they have the following means at their disposal {random.choice(LPD.throw)}
+        Their revenge plan is {random.choice(LPD.ven)}""")
 
 def lovers():
     rr = roll()
     if rr <= 0:
         yield  "none"
-    elif rr >=3:
-        for i in range(0,rr):
-            yield random.choice(LPD.lovers)
+    for i in range(0,rr):
+        yield random.choice(LPD.lovers)
 
 
 
