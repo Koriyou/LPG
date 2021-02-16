@@ -1,5 +1,6 @@
 from functions import *
 import random
+from LPD import RandomMaleNames , RandomFemaleNames
 
 nl = '\n'
 def questionnaire(*args):
@@ -44,8 +45,14 @@ def questionnaire(*args):
 
 
 with open("LP2.txt","w") as f:
-    name = ""
-    name = input("what is your name ?")
+    name = ''
+    name = input("what is your name ? press Enter for Random name")
+    if name == '':
+        name = input("is your character Male or Female ?").capitalize()
+        if name == "Male":
+            name = random.choice(RandomMaleNames)
+        if name == "Female":
+            name = random.choice(RandomFemaleNames)
     f.write(questionnaire(name,input("""What is your role ? :
         - choose 1 for Rockerboy
         - choose 2 for Solo
