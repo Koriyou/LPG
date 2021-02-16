@@ -44,7 +44,9 @@ def questionnaire(*args):
 
 
 with open("LP2.txt","w") as f:
-    f.write(questionnaire(input("what's your name ?"),input("""What is your role ? :
+    name = ""
+    name = input("what is your name ?")
+    f.write(questionnaire(name,input("""What is your role ? :
         - choose 1 for Rockerboy
         - choose 2 for Solo
         - choose 3 for Netrunner
