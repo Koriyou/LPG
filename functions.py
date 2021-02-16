@@ -40,44 +40,6 @@ def appendWithNewLine(text,stringToAppend):
 	"""this is the mdrasa function"""
 	return text+stringToAppend+"\n" #we append the new string to the general text, the \n stand for a new line
 
-def rbpath():
-    """
-    Function with input for lifepath selection.
-    input calls a function to randomize lifepath based on role
-    """
-    text="" #his is an empty text
-    RoleSelect=input("""What is your role ? :
-    - choose 1 for Rockerboy
-    - choose 2 for Solo
-    - choose 3 for Netrunner
-    - choose 4 for Tech
-    - choose 5 for Medtech
-    - choose 6 for Media
-    - choose 7 for Exec
-    - choose 8 for Lawman
-    - choose 9 for Fixer
-    - choose 10 for nomad
-    - choose 11 for random role""")
-    text=appendWithNewLine(text,RoleSelect)
-    if int(RoleSelect) == 11:
-        return RoleChoice(random.randint(1,10))
-    return RoleChoice(int(text))
-
-def RoleChoice(role):
-    switcher={
-            1:Rockerpath,
-            2:SoloPath,
-            3:NetrunnerPath,
-            4:TechPath,
-            5:MedtechPath,
-            6:MediaPath,
-            7:ExecPath,
-            8:LawmanPath,
-            9:FixerPath,
-            10:NomadPath
-            }
-    func = switcher.get(role,lambda:"invalid choice")
-    return func()
 
 def Rockerpath():
     text = "You Are a RockerBoy\n"
