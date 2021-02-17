@@ -50,11 +50,11 @@ def questionnaire(*args):
     - {random.choice(LPD.Crisis)}
 - Relationships
     - Friends :
-        - {nl.join(flist())}
+        {nl.join(flist())}
     - Enemies :
-        - {nl.join(enemies())}
+        {nl.join(enemies())}
     - former lovers :
-        - {nl.join(lovers())}
+        {nl.join(lovers())}
 - Life Goal
     - {random.choice(LPD.lg)}""")
 
