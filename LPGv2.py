@@ -10,8 +10,6 @@ file = open('FemaleNames.txt', 'r')
 RandomFemaleNames = file.read().split('\n')
 file.close()
 
-print(RandomFemaleNames)
-
 def questionnaire(*args):
     answers = [*args]
     Roles = {1:Rockerpath,
