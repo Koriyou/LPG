@@ -56,12 +56,18 @@ with open("LP2.txt","w") as f:
     name = input("what is your name ? press Enter for Random name")
     if name == '':
         while True:
-            name = input("is your character Male or Female ?").capitalize()
+            name = input("is your character Male or Female ? , Press Enter for Random").capitalize()
             if name == "Male":
                 name = random.choice(RandomMaleNames)
                 break
-            if name == "Female":
+            elif name == "Female":
                 name = random.choice(RandomFemaleNames)
+                break
+            elif name == '':
+                c1 = random.choice(RandomMaleNames)
+                c2 = random.choice(RandomFemaleNames)
+                choices = [c1,c2]
+                name = random.choice(choices)
                 break
             else:
                 print('choose male or female')
