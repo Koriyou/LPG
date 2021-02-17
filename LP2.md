@@ -1,42 +1,38 @@
-# Name : Tabetha
+# Name : 2
 ## Role : Solo
 - you are a Corporate Enforcer who takes jobs on the side
 - your moral compass is Willing to bend the rules (and the law) to get the job done.
-- you operate in Combat Zones
-- Someone is gunning for you Corrupt Lawmen or Lawmen who
+- you operate in A Corporate Zone
+- Someone is gunning for you A Fixer who sees you as a threat.
 
 ## Lifepath :
 ### Personals
 - Cultural origin
-    - Oceania/Pacific Islander
+    - South East Asian
 - Personality
-    - Intellectual and detached
+    - Silly and fluff-headed
 - Fashion
-    - Businesswear (Leadership, Presence, Authority)
-    - Long and straight
-    - Tattoos
+    - High Fashion (Exclusive, Designer, Couture)
+    - Mohawk
+    - Ritual scars
 - Values
-    - you value Honor above all else
-    - I stay neutral.
-    - the person you value most is: A parent and your most valued possession is A photograph
+    - you value Family above all else
+    - I hate almost everyone.
+    - the person you value most is: A brother or sister and your most valued possession is A piece of clothing
 - Family background
-    - Corporate Managers : Well to do, with large homes, safe neighborhoods, nice cars, etc. Sometimes your parent(s) would hire servants, although this was rare. You had a mix of private and corporate education. 
+    - Urban Homeless : You lived in cars, dumpsters, or abandoned shipping modules. If you were lucky. You were usually hungry, cold, and scared, unless you were tough enough to fight for the scraps. Education? School of Hard Knocks. 
 - Childhood Environnement
-    - In a Nomad pack moving from place to place.
+    - Spent in a safe Corp Zone walled off from the rest of the City.
 - Family crisis
-    - Your family lost everything through betrayal.
+    - Your family is imprisoned, and you alone escaped
 - Relationships
     - Friends :
-        - Like a parent to you.
-
-- Someone you know from The Street.
-
-- Like a younger sibling to you.
+        - A teacher or mentor.,A partner or coworker.
+        - An old childhood friend.
 
     - Enemies :
         - none
     - former lovers :
-        
-- none
+        - none
 - Life Goal
-    - Cause pain and suffering to anyone who crosses you.
+    - Gain fame and recognition.

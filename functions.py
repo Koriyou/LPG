@@ -14,24 +14,24 @@ def flist():
         yield  "\n        - none"
 
     for i in range(0,rr):
-        yield f"- {random.choice(LPD.Friends)}\n"
+        yield f"\n        - {random.choice(LPD.Friends)}\n"
 
 def enemies():
     rr = roll()
     if rr <= 0:
         yield  "\n        - none"
     for i in range(0,rr):
-        yield(f"""- This enemy is {random.choice(LPD.Enemies)}
-              - he hates you for this reason {random.choice(LPD.cause)}
-              - they have the following means at their disposal {random.choice(LPD.throw)}
-              - Their revenge plan is {random.choice(LPD.ven)}""")
+        yield(f"""\n        - This enemy is {random.choice(LPD.Enemies)}
+        	- they hates you for this reason {random.choice(LPD.cause)}
+        	- they have the following means at their disposal {random.choice(LPD.throw)}
+        	- Their revenge plan is {random.choice(LPD.ven)}\n""")
 
 def lovers():
     rr = roll()
     if rr <= 0:
         yield  "\n        - none"
     for i in range(0,rr):
-        yield f"- {random.choice(LPD.lovers)}\n"
+        yield f"\n        - {random.choice(LPD.lovers)}\n"
 
 
 
