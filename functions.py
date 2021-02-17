@@ -48,17 +48,17 @@ def Rockerpath():
     text=appendWithNewLine(text,("are you a solo or  are you in a group?")) #we append what we show in the console to the string
     if int(Rpathresult) == 1:
         text=appendWithNewLine(text,"you are solo")
-    elif int(Rpathresult) == 2:
-        text=appendWithNewLine(text,"you are in a group")
-    else :
-        print("choose 1 or 2")
-        return
-    text=appendWithNewLine(text,"were you once in a group ?")
+        text=appendWithNewLine(text,"were you once in a group ?")
     answer = int(input("were you once in a group ? 1 yes 2 no"))
     if answer == 1:
         text=appendWithNewLine(text,f"you left the group because {random.choice(LPD.ReasonYouLeft)}")
     elif answer == 2:
         pass
+    elif int(Rpathresult) == 2:
+        text=appendWithNewLine(text,"you are in a group")
+    else :
+        print("choose 1 or 2")
+        return
     text=appendWithNewLine(text,f"the type of venue you perform in is {random.choice(LPD.TypeOfVenue)}")
     text=appendWithNewLine(text,f"the person gunning for you is {random.choice(LPD.Gunning)}")
     return text
