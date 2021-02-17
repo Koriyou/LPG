@@ -1,45 +1,37 @@
-# Name : Waltraud
-## Role : RockerBoy
-### Type of Rockerboy :
-- Idoru
-- you are solo
-- you left the group because The rest of the group was murdered or otherwise broken up by external enemies.
-- the type of venue you perform in is Alternative Cafes
-- the person gunning for you is Old group member who thinks you did them dirty.
+# Name : Bradley
+## Role : Lawman
+- Your Position within the force is Criminal Investigation
+- Your group's jurisdiction is  Standard City Patrol Zone
+- Your group is Fair, honest policing, strong ethical practices.
+- Some one is Gunning for you : Smugglers
+- Your group's Target of choice is  Street Crime
 
 ## Lifepath :
 ### Personals
 - Cultural origin
-    - South East Asian
+    - Western European
 - Personality
-    - Shy and secretive
+    - Moody, rash, and headstrong
 - Fashion
-    - Asia Pop (Bright, Costume-like, Youthful)
-    - Short and curly
-    - Spiked boots or heels
+    - Generic Chic (Standard, Colorful, Modular)
+    - Short and spiked
+    - Nose rings
 - Values
     - you value Family above all else
-    - I hate almost everyone.
-    - the person you value most is: No one and your most valued possession is A toy
+    - I stay neutral.
+    - the person you value most is: A public figure and your most valued possession is A photograph
 - Family background
-    - Reclaimers : You started out on the road, but then moved into one of the deserted ghost towns or cities to rebuild it. A pioneer life: dangerous, but with plenty of simple food and a safe place to sleep. You were home schooled if there was anyone who had the time. Edgerunners Your home was always changing based on your parents' current "job." Could be a luxury apartment, an urban conapt, or a dumpster if you were on the run. Food and shelter ran the gamut from gourmet to kibble. 
+    - Urban Homeless : You lived in cars, dumpsters, or abandoned shipping modules. If you were lucky. You were usually hungry, cold, and scared, unless you were tough enough to fight for the scraps. Education? School of Hard Knocks. 
 - Childhood Environnement
-    - In a decaying, once upscale neighborhood,now holding off the boosters to survive.
+    - In a Corporate luxury "starscraper," high abovethe rest of the teeming rabble.
 - Family crisis
-        - Your family vanished. You are the only,remaining member.
+    - Your family is cursed with a hereditary feud,that has lasted for generations.
 - Relationships
     - Friends :
         - none
     - Enemies :
-        - This enemy is Person working for you
-              - he hates you for this reason Caused a major public humiliation.
-              - they have the following means at their disposal An entire gang 12 people.
-              - Their revenge plan is Avoid the scum.
-- This enemy is Person you work for
-              - he hates you for this reason Turned down the other's offer of a job or,romantic involvement.
-              - they have the following means at their disposal The local cops or other Lawmen.
-              - Their revenge plan is Avoid the scum.
+        - none
     - former lovers :
         - none
 - Life Goal
-    - Gain power and control.
+    - Get off The Street no matter what it takes.
