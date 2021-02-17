@@ -3,12 +3,14 @@ import random
 
 nl = '\n'
 file = open('malenames.txt', 'r')
-RandomMaleNames = file.read().split(' ')
+RandomMaleNames = file.read().split('\n')
 file.close()
 
 file = open('FemaleNames.txt', 'r')
-RandomFemaleNames = file.read().split(' ')
+RandomFemaleNames = file.read().split('\n')
 file.close()
+
+print(RandomFemaleNames)
 
 def questionnaire(*args):
     answers = [*args]
