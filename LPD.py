@@ -507,7 +507,7 @@ PlayerPackPhilosophy = ["Always working for good; your Pack accepts others, just
 "Totally evil. You rage up and down the highways,",
 "killing, looting, and just terrorizing everyone."]
 
-PlayerPackPhilosophy = ["Organized Crime",
+NomadGunning = ["Organized Crime",
 "Boostergangs",
 "Drug Runners",
 "Dirty Politicians",
