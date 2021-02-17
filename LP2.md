@@ -1,43 +1,42 @@
-# Name : Genevieve
-## Role : Tech
-- Jack of All Trades
-- you are solo
-- workspace You keep everything just in case you need it later.
-- some of your clients are Corporate Execs who use you for "black project" work.
-- you get your supplies this way :  You hit the Night Markets and score deals whenever you can.
-- Someone is gunning for you  Combat Zone gangers who want you to work for them exclusively.
+# Name : Tabetha
+## Role : Solo
+- you are a Corporate Enforcer who takes jobs on the side
+- your moral compass is Willing to bend the rules (and the law) to get the job done.
+- you operate in Combat Zones
+- Someone is gunning for you Corrupt Lawmen or Lawmen who
 
 ## Lifepath :
 ### Personals
 - Cultural origin
-    - Eastern European
+    - Oceania/Pacific Islander
 - Personality
-    - Picky, fussy, and nervous
+    - Intellectual and detached
 - Fashion
-    - Bohemian (Folksy, Retro, Free-spirited)
-    - Bald
-    - Nose rings
+    - Businesswear (Leadership, Presence, Authority)
+    - Long and straight
+    - Tattoos
 - Values
-    - you value Knowledge above all else
+    - you value Honor above all else
     - I stay neutral.
-    - the person you value most is: A brother or sister and your most valued possession is A weapon
+    - the person you value most is: A parent and your most valued possession is A photograph
 - Family background
-    - Corporate Execs: Wealthy powerful with servants luxury homes and the best of everything. Private security made sure you were always safe. You definitely went to a big-name private school.
+    - Corporate Managers : Well to do, with large homes, safe neighborhoods, nice cars, etc. Sometimes your parent(s) would hire servants, although this was rare. You had a mix of private and corporate education. 
 - Childhood Environnement
-    - Spent in a safe Corp Zone walled off from the rest of the City.
+    - In a Nomad pack moving from place to place.
 - Family crisis
-    - Your family is involved in a long-term,conspiracy, organization, or association, such,as a crime family or revolutionary group.
+    - Your family lost everything through betrayal.
 - Relationships
     - Friends :
         - Like a parent to you.
 
-- An old childhood friend.
+- Someone you know from The Street.
+
+- Like a younger sibling to you.
 
     - Enemies :
-        
-- none
+        - none
     - former lovers :
         
 - none
 - Life Goal
-    - Gain fame and recognition.
+    - Cause pain and suffering to anyone who crosses you.
