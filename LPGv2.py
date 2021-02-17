@@ -1,8 +1,15 @@
 from functions import *
 import random
-from LPD import RandomMaleNames , RandomFemaleNames
 
 nl = '\n'
+file = open('malenames.txt', 'r')
+RandomMaleNames = file.read().split(' ')
+file.close()
+
+file = open('FemaleNames.txt', 'r')
+RandomFemaleNames = file.read().split(' ')
+file.close()
+
 def questionnaire(*args):
     answers = [*args]
     Roles = {1:Rockerpath,
