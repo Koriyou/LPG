@@ -56,7 +56,7 @@ def questionnaire(*args):
     - former lovers :
         {nl.join(lovers())}
 - Life Goal
-    {random.choice(LPD.lg)}""")
+    - {random.choice(LPD.lg)}""")
 
 
 with open("LP2.md","w") as f:
