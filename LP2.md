@@ -1,37 +1,43 @@
-# Name : Bradley
-## Role : Lawman
-- Your Position within the force is Criminal Investigation
-- Your group's jurisdiction is  Standard City Patrol Zone
-- Your group is Fair, honest policing, strong ethical practices.
-- Some one is Gunning for you : Smugglers
-- Your group's Target of choice is  Street Crime
+# Name : Genevieve
+## Role : Tech
+- Jack of All Trades
+- you are solo
+- workspace You keep everything just in case you need it later.
+- some of your clients are Corporate Execs who use you for "black project" work.
+- you get your supplies this way :  You hit the Night Markets and score deals whenever you can.
+- Someone is gunning for you  Combat Zone gangers who want you to work for them exclusively.
 
 ## Lifepath :
 ### Personals
 - Cultural origin
-    - Western European
+    - Eastern European
 - Personality
-    - Moody, rash, and headstrong
+    - Picky, fussy, and nervous
 - Fashion
-    - Generic Chic (Standard, Colorful, Modular)
-    - Short and spiked
+    - Bohemian (Folksy, Retro, Free-spirited)
+    - Bald
     - Nose rings
 - Values
-    - you value Family above all else
+    - you value Knowledge above all else
     - I stay neutral.
-    - the person you value most is: A public figure and your most valued possession is A photograph
+    - the person you value most is: A brother or sister and your most valued possession is A weapon
 - Family background
-    - Urban Homeless : You lived in cars, dumpsters, or abandoned shipping modules. If you were lucky. You were usually hungry, cold, and scared, unless you were tough enough to fight for the scraps. Education? School of Hard Knocks. 
+    - Corporate Execs: Wealthy powerful with servants luxury homes and the best of everything. Private security made sure you were always safe. You definitely went to a big-name private school.
 - Childhood Environnement
-    - In a Corporate luxury "starscraper," high abovethe rest of the teeming rabble.
+    - Spent in a safe Corp Zone walled off from the rest of the City.
 - Family crisis
-    - Your family is cursed with a hereditary feud,that has lasted for generations.
+    - Your family is involved in a long-term,conspiracy, organization, or association, such,as a crime family or revolutionary group.
 - Relationships
     - Friends :
-        - none
+        - Like a parent to you.
+
+- An old childhood friend.
+
     - Enemies :
-        - none
+        
+- none
     - former lovers :
-        - none
+        
+- none
 - Life Goal
-    - Get off The Street no matter what it takes.
+    - Gain fame and recognition.
