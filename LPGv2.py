@@ -47,7 +47,7 @@ def questionnaire(*args):
 - Childhood Environnement
     - {random.choice(LPD.Environnement)}
 - Family crisis
-        - {random.choice(LPD.Crisis)}
+    - {random.choice(LPD.Crisis)}
 - Relationships
     - Friends :
         {nl.join(flist())}

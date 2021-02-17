@@ -14,7 +14,7 @@ def flist():
         yield  "- none"
 
     for i in range(0,rr):
-        yield f"- {random.choice(LPD.Friends)}"
+        yield f"- {random.choice(LPD.Friends)}\n"
 
 def enemies():
     rr = roll()
@@ -31,7 +31,7 @@ def lovers():
     if rr <= 0:
         yield  "- none"
     for i in range(0,rr):
-        yield f"- {random.choice(LPD.lovers)}"
+        yield f"- {random.choice(LPD.lovers)}\n"
 
 
 

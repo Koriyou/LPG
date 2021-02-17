@@ -1,37 +1,45 @@
-# Name : Wm
-## Role : Solo
-- you are a Local Vigilante for Hire
-- your moral compass is Always working for good, trying to take out the "bad guys."
-- you operate in The territory of a particular Fixer or contact
-- Someone is gunning for you A Corporation you may have angered.
+# Name : Waltraud
+## Role : RockerBoy
+### Type of Rockerboy :
+- Idoru
+- you are solo
+- you left the group because The rest of the group was murdered or otherwise broken up by external enemies.
+- the type of venue you perform in is Alternative Cafes
+- the person gunning for you is Old group member who thinks you did them dirty.
 
 ## Lifepath :
 ### Personals
 - Cultural origin
-    - East Asian
+    - South East Asian
 - Personality
-    - Friendly and outgoing
+    - Shy and secretive
 - Fashion
-    - Nomad Leathers (Western, Rugged, Tribal)
-    - Long and ratty
-    - Tattoos
+    - Asia Pop (Bright, Costume-like, Youthful)
+    - Short and curly
+    - Spiked boots or heels
 - Values
-    - you value Your word above all else
+    - you value Family above all else
     - I hate almost everyone.
-    - the person you value most is: A public figure and your most valued possession is A letter
+    - the person you value most is: No one and your most valued possession is A toy
 - Family background
-    - Nomad Pack You had a mix of rugged trailers, vehicles, and huge road kombis for your home. You learned to drive and fight at an early age, but the family was always there to care for you. Food was actually fresh and abundant. Mostly home schooled. 
+    - Reclaimers : You started out on the road, but then moved into one of the deserted ghost towns or cities to rebuild it. A pioneer life: dangerous, but with plenty of simple food and a safe place to sleep. You were home schooled if there was anyone who had the time. Edgerunners Your home was always changing based on your parents' current "job." Could be a luxury apartment, an urban conapt, or a dumpster if you were on the run. Food and shelter ran the gamut from gourmet to kibble. 
 - Childhood Environnement
     - In a decaying, once upscale neighborhood,now holding off the boosters to survive.
 - Family crisis
-        - Your family was killed, and you were the only,survivor.
+        - Your family vanished. You are the only,remaining member.
 - Relationships
     - Friends :
-        - Like an older sibling to you.
-- Like a younger sibling to you.
+        - none
     - Enemies :
-        none
+        - This enemy is Person working for you
+              - he hates you for this reason Caused a major public humiliation.
+              - they have the following means at their disposal An entire gang 12 people.
+              - Their revenge plan is Avoid the scum.
+- This enemy is Person you work for
+              - he hates you for this reason Turned down the other's offer of a job or,romantic involvement.
+              - they have the following means at their disposal The local cops or other Lawmen.
+              - Their revenge plan is Avoid the scum.
     - former lovers :
-        none
+        - none
 - Life Goal
-    Hunt down those responsible for your miserable life and make them pay.
+    - Gain power and control.
