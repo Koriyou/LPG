@@ -478,11 +478,11 @@ NomadLandOperations = ["Gogang",
 "Mercenary army",
 "Construction work gang"]
 
-NomadAirOperations = ["Air piracy"
-"Cargo transport"
-"Passenger transport"
-"Aircraft protection"
-"Smuggling"
+NomadAirOperations = ["Air piracy",
+"Cargo transport",
+"Passenger transport",
+"Aircraft protection",
+"Smuggling",
 "Combat support"]
 
 NomadSeaOperations = ["Piracy",
