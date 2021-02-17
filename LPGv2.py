@@ -26,32 +26,40 @@ def questionnaire(*args):
         answers[1] = random.randint(1,10)
     func = Roles.get((int(answers[1])))
 
-    return(f"""your name is {answers[0]} and {func()}
+    return(f"""# Name : {answers[0]}
+## Role : {func()}
+## Lifepath :
+### Personals
+- Cultural origin
+    - {random.choice(LPD.Corigin)}
+- Personality
+    - {random.choice(LPD.personality)}
+- Fashion
+    - {random.choice(LPD.dresscode)}
+    - {random.choice(LPD.hairstyle)}
+    - {random.choice(LPD.Aff)}
+- Values
+    - you value {random.choice(LPD.Value)} above all else
+    - {random.choice(LPD.people)}
+    - the person you value most is: {random.choice(LPD.ValuedPerson)} and your most valued possession is {random.choice(LPD.ValuedPocession)}
+- Family background
+    - {random.choice(LPD.Fbackground)}
+- Childhood Environnement
+    - {random.choice(LPD.Environnement)}
+- Family crisis
+        - {random.choice(LPD.Crisis)}
+- Relationships
+    - Friends :
+        {nl.join(flist())}
+    - Enemies :
+        {nl.join(enemies())}
+    - former lovers :
+        {nl.join(lovers())}
+- Life Goal
+    {random.choice(LPD.lg)}""")
 
-          -this is your lifepath :
 
-    your cultural origin is {random.choice(LPD.Corigin)}
-    you are {random.choice(LPD.personality)}
-    your favorite dress code is {random.choice(LPD.dresscode)}
-    your favorite hairstyle  is {random.choice(LPD.hairstyle)}
-    People always notice your {random.choice(LPD.Aff)}
-    you value {random.choice(LPD.Value)} above all else
-    when it comes to people this is what you think : {random.choice(LPD.people)}
-    the person you value most is: {random.choice(LPD.ValuedPerson)} and your most valued possession is {random.choice(LPD.ValuedPocession)}
-    Family background
-    {random.choice(LPD.Fbackground)}
-    Environnement
-    {random.choice(LPD.Environnement)}
-    {random.choice(LPD.Crisis)}
-    Friends :{nl.join(flist())}
-    Enemies :{nl.join(enemies())}
-    former lovers :{nl.join(lovers())}
-    your lifegoal is : {random.choice(LPD.lg)}
-
-          """)
-
-
-with open("LP2.txt","w") as f:
+with open("LP2.md","w") as f:
     name = ''
     name = input("what is your name ? press Enter for Random name")
     if name == '':
