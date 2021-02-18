@@ -91,6 +91,3 @@ with open("LP2.md","w") as f:
         - choose 11 for random role""")))
 
 input("Press Enter to save and exit")
-
-
-
