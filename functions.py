@@ -124,11 +124,11 @@ def MediaPath():
 
 def ExecPath():
     text = "Exec\n"
-    text=appendWithNewLine(text,f"- You work for a {random.choice(LPD.CorpoType)} Corp")
-    text=appendWithNewLine(text,f"- you work in the {random.choice(LPD.CorpoDivision)} Division")
-    text=appendWithNewLine(text,f"- You are working for {random.choice(LPD.CorpoAlignement)}")
-    text=appendWithNewLine(text,f"- Your corpo is Based {random.choice(LPD.CorpoBased)}")
-    text=appendWithNewLine(text,f"- Someone is Gunning for you  {random.choice(LPD.CorpoGunning)}")
+    text=appendWithNewLine(text,f"- Corpo type : {random.choice(LPD.CorpoType)}")
+    text=appendWithNewLine(text,f"- Division : {random.choice(LPD.CorpoDivision)}")
+    text=appendWithNewLine(text,f"- Type of Boss : {random.choice(LPD.CorpoAlignement)}")
+    text=appendWithNewLine(text,f"- Corpo's base of operation : {random.choice(LPD.CorpoBased)}")
+    text=appendWithNewLine(text,f"- Person Gunning : {random.choice(LPD.CorpoGunning)}")
     return text
 
 def LawmanPath():
