@@ -1,7 +1,5 @@
 import random
 import LPD
-# test
-
 
 def roll():
     """Uses the cyberpunk red formula 1d10-7 to define friends enemies and lovers
