@@ -1,3 +1,4 @@
+# this is the main app
 from functions import *
 import random
 
@@ -10,20 +11,21 @@ file = open('FemaleNames.txt', 'r')
 RandomFemaleNames = file.read().split('\n')
 file.close()
 
+
 def questionnaire(*args):
     answers = [*args]
-    Roles = {1:Rockerpath,
-            2:SoloPath,
-            3:NetrunnerPath,
-            4:TechPath,
-            5:MedtechPath,
-            6:MediaPath,
-            7:ExecPath,
-            8:LawmanPath,
-            9:FixerPath,
-            10:NomadPath}
+    Roles = {1: Rockerpath,
+             2: SoloPath,
+             3: NetrunnerPath,
+             4: TechPath,
+             5: MedtechPath,
+             6: MediaPath,
+             7: ExecPath,
+             8: LawmanPath,
+             9: FixerPath,
+             10: NomadPath}
     if int(answers[1]) >= 11:
-        answers[1] = random.randint(1,10)
+        answers[1] = random.randint(1, 10)
     func = Roles.get((int(answers[1])))
 
     return(f"""# Name : {answers[0]}
@@ -56,12 +58,13 @@ def questionnaire(*args):
     - {random.choice(LPD.lg)}""")
 
 
-with open("LP2.md","w") as f:
+with open("LP2.md", "w") as f:
     name = ''
     name = input("what is your name ? press Enter for Random name")
     if name == '':
         while True:
-            name = input("is your character Male or Female ? , Press Enter for Random").capitalize()
+            name = input(
+                "is your character Male or Female ? , Press Enter for Random").capitalize()
             if name == "Male":
                 name = random.choice(RandomMaleNames)
                 break
@@ -71,13 +74,13 @@ with open("LP2.md","w") as f:
             elif name == '':
                 c1 = random.choice(RandomMaleNames)
                 c2 = random.choice(RandomFemaleNames)
-                choices = [c1,c2]
+                choices = [c1, c2]
                 name = random.choice(choices)
                 break
             else:
                 print('choose male or female')
                 continue
-    f.write(questionnaire(name,input("""What is your role ? :
+    f.write(questionnaire(name, input("""What is your role ? :
         - choose 1 for Rockerboy
         - choose 2 for Solo
         - choose 3 for Netrunner
