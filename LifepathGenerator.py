@@ -10,11 +10,10 @@ def randomName(sexe):
     with open('names.json') as f:
         Names = json.load(f)
     # get one random object from json file
-    name = random.choice(Names)
     if sexe == "f":
-        return f'{name["female"]} {name["surname"]}'
+        return f'{random.choice(Names)["female"]} {random.choice(Names)["surname"]}'
     elif sexe == 'm':
-        return f'{name["male"]} {name["surname"]}'
+        return f'{random.choice(Names)["male"]} {random.choice(Names)["surname"]}'
     else:
         return "put the damn sexe in the function you ass"
 
