@@ -9,19 +9,10 @@ def randomName(sex):
     # import json file
     with open('names.json') as f:
         Names = json.load(f)
-<<<<<<< HEAD
-    # get one random object from json file
-    name = random.choice(Names)
     if sex == "f":
-        return f'{name["female"]} {name["surname"]}'
-    elif sex == 'm':
-        return f'{name["male"]} {name["surname"]}'
-=======
-    if sexe == "f":
         return f'{random.choice(Names)["female"]} {random.choice(Names)["surname"]}'
-    elif sexe == 'm':
+    elif sex == 'm':
         return f'{random.choice(Names)["male"]} {random.choice(Names)["surname"]}'
->>>>>>> f895c3a895973709841c5c42dc5b371013c8450e
     else:
         return "put the damn sex in the function you ass"
 
