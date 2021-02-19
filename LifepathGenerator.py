@@ -1,15 +1,22 @@
 # this is the main app
 from functions import *
 import random
+import json
 
-nl = '\n'
-file = open('malenames.txt', 'r')
-RandomMaleNames = file.read().split('\n')
-file.close()
 
-file = open('FemaleNames.txt', 'r')
-RandomFemaleNames = file.read().split('\n')
-file.close()
+def randomName(sexe):
+    """ generate random """
+    # import json file
+    with open('names.json') as f:
+        Names = json.load(f)
+    # get one random object from json file
+    name = random.choice(Names)
+    if sexe == "f":
+        return f'{name["female"]} {name["surname"]}'
+    elif sexe == 'm':
+        return f'{name["male"]} {name["surname"]}'
+    else:
+        return "put the damn sexe in the function you ass"
 
 
 def questionnaire(*args):
@@ -60,22 +67,20 @@ def questionnaire(*args):
 
 with open("LP2.md", "w") as f:
     name = ''
-    name = input("what is your name ? press Enter for Random name")
+    name = input("what is your name ? press Enter for Random name \n")
     if name == '':
         while True:
             name = input(
-                "is your character Male or Female ? , Press Enter for Random").capitalize()
+                "is your character Male or Female ? , Press Enter for Random \n").capitalize()
             if name == "Male":
-                name = random.choice(RandomMaleNames)
+                name = randomName("m")
                 break
             elif name == "Female":
-                name = random.choice(RandomFemaleNames)
+                name = randomName("f")
                 break
             elif name == '':
-                c1 = random.choice(RandomMaleNames)
-                c2 = random.choice(RandomFemaleNames)
-                choices = [c1, c2]
-                name = random.choice(choices)
+                # either put "m" or "f" in the random name function
+                name = randomName(random.choice(["m", "f"]))
                 break
             else:
                 print('choose male or female')
@@ -91,6 +96,6 @@ with open("LP2.md", "w") as f:
         - choose 8 for Lawman
         - choose 9 for Fixer
         - choose 10 for nomad
-        - choose 11 for random role""")))
+        - choose 11 for random role \n""")))
 
 input("Press Enter to save and exit")
