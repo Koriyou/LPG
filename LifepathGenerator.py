@@ -5,9 +5,9 @@ import json
 
 
 def randomName(sex):
-    """ generate random """
+    """ generate random female or male names at random to be called later on"""
     # import json file
-    with open('names.json') as f:
+    with open('names.json') as f: #opens the Json file 
         Names = json.load(f)
     if sex == "f":
         return f'{random.choice(Names)["female"]} {random.choice(Names)["surname"]}'
@@ -74,7 +74,7 @@ with open("LP2.md", "w") as f:
             name = input(
                 "is your character Male or Female ? , Press Enter for Random \n").capitalize()
             if name == "Male":
-                name = randomName("m")
+                name = randomName("m") #this here calls the randomName function and passes the string as an argument
                 break
             elif name == "Female":
                 name = randomName("f")
