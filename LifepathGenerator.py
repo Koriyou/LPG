@@ -4,19 +4,19 @@ import random
 import json
 
 
-def randomName(sexe):
+def randomName(sex):
     """ generate random """
     # import json file
     with open('names.json') as f:
         Names = json.load(f)
     # get one random object from json file
     name = random.choice(Names)
-    if sexe == "f":
+    if sex == "f":
         return f'{name["female"]} {name["surname"]}'
-    elif sexe == 'm':
+    elif sex == 'm':
         return f'{name["male"]} {name["surname"]}'
     else:
-        return "put the damn sexe in the function you ass"
+        return "put the damn sex in the function you ass"
 
 
 nl = '\n'
