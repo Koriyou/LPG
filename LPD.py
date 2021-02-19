@@ -1,4 +1,3 @@
-import math
 import random
 
 Corigin = ["North American","South/central American","Western European",
