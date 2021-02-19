@@ -9,7 +9,6 @@ def randomName(sexe):
     # import json file
     with open('names.json') as f:
         Names = json.load(f)
-    # get one random object from json file
     if sexe == "f":
         return f'{random.choice(Names)["female"]} {random.choice(Names)["surname"]}'
     elif sexe == 'm':
