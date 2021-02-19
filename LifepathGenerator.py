@@ -36,7 +36,7 @@ def questionnaire(*args):
         answers[1] = random.randint(1, 10)
     func = Roles.get((int(answers[1])))
 
-    return(f"""# Name : {answers[0]}
+    return(f"""# {answers[0]}
 ## Role : {func()}
 ## Lifepath :
 ### Personals
