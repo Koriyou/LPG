@@ -7,7 +7,7 @@ import json
 def randomName(sex):
     """ generate random female or male names at random to be called later on"""
     # import json file
-    with open('names.json') as f: #opens the Json file 
+    with open('names.json') as f: #opens the Json file
         Names = json.load(f)
     if sex == "f":
         return f'{random.choice(Names)["female"]} {random.choice(Names)["surname"]}'
