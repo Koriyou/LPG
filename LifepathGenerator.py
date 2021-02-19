@@ -19,6 +19,9 @@ def randomName(sexe):
         return "put the damn sexe in the function you ass"
 
 
+nl = '\n'
+
+
 def questionnaire(*args):
     answers = [*args]
     Roles = {1: Rockerpath,
