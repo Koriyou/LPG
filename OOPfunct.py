@@ -149,7 +149,7 @@ def ExecPath():
     path["corpo type"]=f"Corpo type : {random.choice(LPD.CorpoType)}"
     path['corpo devison']=f"{random.choice(LPD.CorpoDivision)}"
     path['Type of Boss']=f"{random.choice(LPD.CorpoAlignement)}"
-    path['base of operations']=f"The type of stories you tell are  {random.choice(LPD.MediaStories)}"
+    path['base of operations']=f"{random.choice(LPD.CorpoBased)}"
     path['gunning']=f"{random.choice(LPD.CorpoGunning)}"
     return path
 
