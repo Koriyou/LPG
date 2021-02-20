@@ -27,7 +27,7 @@ class Edgerunner():
     - you value {random.choice(LPD.Value)} above all else
     - {random.choice(LPD.people)}
     - the person you value most is: {random.choice(LPD.ValuedPerson)} and your most valued possession is {random.choice(LPD.ValuedPocession)}
-- Family background
+- Family background 
     - {random.choice(LPD.Fbackground)}
 - Childhood Environnement
     - {random.choice(LPD.Environnement)}
@@ -82,6 +82,6 @@ Character.rolebasedlifepath = Character.rbl()
 
 
 with open("LP2.md", "w") as f:
-    f.write(f'# {Character.name}\n{Character.lifepath}\n{Character.rolebasedlifepath}')
+    f.write(f'# {Character.name}\n{Character.lifepath}\n ### {Character.rolebasedlifepath}')
 
 input("Exit\n")
