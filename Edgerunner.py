@@ -1,6 +1,8 @@
 import LPD
 import random
 from functions import *
+import json
+
 
 nl = '\n'
 
@@ -10,7 +12,8 @@ class Edgerunner():
         self.role = role
         self.lifepath = lifepath
     def lp (self):
-        return f""" ## Lifepath :
+        return f"""
+## Lifepath :
 ### Personals
 - Cultural origin
     - {random.choice(LPD.Corigin)}
@@ -37,8 +40,8 @@ class Edgerunner():
 - Life Goal
     - {random.choice(LPD.lg)}"""
 
-    def rolebasedlifepath(self,x):
-        a = input(("""What is your role ? :
+    def rbl(self):
+        x = input(("""What is your role ? :
             - choose 1 for Rockerboy
             - choose 2 for Solo
             - choose 3 for Netrunner
@@ -60,23 +63,25 @@ class Edgerunner():
                 8: LawmanPath,
                 9: FixerPath,
                 10: NomadPath}
-        if int(a) >= 11:
-            a = random.randint(1, 10)
-        func = Roles.get(int(a))
+        if int(x) >= 11:
+            x = random.randint(1, 10)
+        func = Roles.get(int(x))
         return func()
 
-
-
-Character = Edgerunner("Ali")
+Character = Edgerunner(input("Who are you ? Leave blank for random name\n"))
+if Character.name == '':
+        sex = input("Male or Female ?\n").capitalize()
+        with open('names.json') as f: #opens the Json file
+            Names = json.load(f) # Load's json under variable f as variable Names
+        if sex == "Female": #condition is set for argument called in the function.
+            Character.name = f'{random.choice(Names)["female"]} {random.choice(Names)["surname"]}'
+        elif sex == 'Male':
+            Character.name = f'{random.choice(Names)["male"]} {random.choice(Names)["surname"]}'
 Character.lifepath = Character.lp()
-Character.role = Character.role()
+Character.rolebasedlifepath = Character.rbl()
 
-print(Character.name)
-print('-'*10,'Role','-'*10)
-print(Character.role)
-print('-'*10,'Lifepath','-'*10)
-print(Character.lifepath)
-print('-'*10,'Role Based Lifepath','-'*10)
 
-print(Character.rolebasedlifepath(2))
+with open("LP2.md", "w") as f:
+    f.write(f'# {Character.name}\n{Character.lifepath}\n{Character.rolebasedlifepath}')
 
+input("Exit\n")
