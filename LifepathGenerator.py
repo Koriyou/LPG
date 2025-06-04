@@ -1,15 +1,25 @@
 # this is the main app
 from functions import *
 import random
+import os
+import sys
+
+# Helper to get resource path for PyInstaller compatibility
+def resource_path(relative_path):
+    # PyInstaller sets the _MEIPASS attribute, but it's a convention, not a strict rule
+    base_path = getattr(sys, '_MEIPASS', os.path.abspath(""))
+    return os.path.join(base_path, relative_path)
 
 nl = '\n'
-file = open('malenames.txt', 'r')
-RandomMaleNames = file.read().split('\n')
-file.close()
-
-file = open('FemaleNames.txt', 'r')
-RandomFemaleNames = file.read().split('\n')
-file.close()
+try:
+    with open(resource_path('malenames.txt'), 'r', encoding='utf-8') as file:
+        RandomMaleNames = file.read().split('\n')
+    with open(resource_path('FemaleNames.txt'), 'r', encoding='utf-8') as file:
+        RandomFemaleNames = file.read().split('\n')
+except (OSError, IOError) as e:
+    print(f"Error loading name files: {e}")
+    RandomMaleNames = ["Unknown"]
+    RandomFemaleNames = ["Unknown"]
 
 
 def questionnaire(*args):
@@ -58,20 +68,20 @@ def questionnaire(*args):
     - {random.choice(LPD.lg)}""")
 
 
-with open("LP2.md", "w") as f:
+with open("LP2.md", "w", encoding='utf-8') as f:
     name = ''
-    name = input("what is your name ? press Enter for Random name")
+    name = input("what is your name ? press Enter for Random name").strip()
     if name == '':
         while True:
-            name = input(
-                "is your character Male or Female ? , Press Enter for Random").capitalize()
-            if name == "Male":
+            gender = input(
+                "is your character Male or Female ? , Press Enter for Random").strip().lower()
+            if gender == "male":
                 name = random.choice(RandomMaleNames)
                 break
-            elif name == "Female":
+            elif gender == "female":
                 name = random.choice(RandomFemaleNames)
                 break
-            elif name == '':
+            elif gender == '':
                 c1 = random.choice(RandomMaleNames)
                 c2 = random.choice(RandomFemaleNames)
                 choices = [c1, c2]
@@ -80,17 +90,17 @@ with open("LP2.md", "w") as f:
             else:
                 print('choose male or female')
                 continue
-    f.write(questionnaire(name, input("""What is your role ? :
-        - choose 1 for Rockerboy
-        - choose 2 for Solo
-        - choose 3 for Netrunner
-        - choose 4 for Tech
-        - choose 5 for Medtech
-        - choose 6 for Media
-        - choose 7 for Exec
-        - choose 8 for Lawman
-        - choose 9 for Fixer
-        - choose 10 for nomad
-        - choose 11 for random role""")))
+    # Role input with validation
+    while True:
+        try:
+            role_input = input("""What is your role ? :\n        - choose 1 for Rockerboy\n        - choose 2 for Solo\n        - choose 3 for Netrunner\n        - choose 4 for Tech\n        - choose 5 for Medtech\n        - choose 6 for Media\n        - choose 7 for Exec\n        - choose 8 for Lawman\n        - choose 9 for Fixer\n        - choose 10 for nomad\n        - choose 11 for random role""")
+            role_num = int(role_input.strip())
+            if 1 <= role_num <= 11:
+                break
+            else:
+                print("Please enter a number between 1 and 11.")
+        except ValueError:
+            print("Please enter a valid number.")
+    f.write(questionnaire(name, role_num))
 
 input("Press Enter to save and exit")
