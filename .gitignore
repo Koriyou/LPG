@@ -1,3 +1,5 @@
 LP2.md
 __pycache__/*
 .vscode/*
+dist/
+build/
