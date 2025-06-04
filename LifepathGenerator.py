@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # this is the main app
 from functions import *
 import random
@@ -58,39 +59,44 @@ def questionnaire(*args):
     - {random.choice(LPD.lg)}""")
 
 
-with open("LP2.md", "w") as f:
-    name = ''
-    name = input("what is your name ? press Enter for Random name")
-    if name == '':
-        while True:
-            name = input(
-                "is your character Male or Female ? , Press Enter for Random").capitalize()
-            if name == "Male":
-                name = random.choice(RandomMaleNames)
-                break
-            elif name == "Female":
-                name = random.choice(RandomFemaleNames)
-                break
-            elif name == '':
-                c1 = random.choice(RandomMaleNames)
-                c2 = random.choice(RandomFemaleNames)
-                choices = [c1, c2]
-                name = random.choice(choices)
-                break
-            else:
-                print('choose male or female')
-                continue
-    f.write(questionnaire(name, input("""What is your role ? :
-        - choose 1 for Rockerboy
-        - choose 2 for Solo
-        - choose 3 for Netrunner
-        - choose 4 for Tech
-        - choose 5 for Medtech
-        - choose 6 for Media
-        - choose 7 for Exec
-        - choose 8 for Lawman
-        - choose 9 for Fixer
-        - choose 10 for nomad
-        - choose 11 for random role""")))
+def main():
+    with open("LP2.md", "w") as f:
+        name = ''
+        name = input("what is your name ? press Enter for Random name")
+        if name == '':
+            while True:
+                name = input(
+                    "is your character Male or Female ? , Press Enter for Random").capitalize()
+                if name == "Male":
+                    name = random.choice(RandomMaleNames)
+                    break
+                elif name == "Female":
+                    name = random.choice(RandomFemaleNames)
+                    break
+                elif name == '':
+                    c1 = random.choice(RandomMaleNames)
+                    c2 = random.choice(RandomFemaleNames)
+                    choices = [c1, c2]
+                    name = random.choice(choices)
+                    break
+                else:
+                    print('choose male or female')
+                    continue
+        f.write(questionnaire(name, input("""What is your role ? :
+            - choose 1 for Rockerboy
+            - choose 2 for Solo
+            - choose 3 for Netrunner
+            - choose 4 for Tech
+            - choose 5 for Medtech
+            - choose 6 for Media
+            - choose 7 for Exec
+            - choose 8 for Lawman
+            - choose 9 for Fixer
+            - choose 10 for nomad
+            - choose 11 for random role""")))
 
-input("Press Enter to save and exit")
+    input("Press Enter to save and exit")
+
+
+if __name__ == "__main__":
+    main()
